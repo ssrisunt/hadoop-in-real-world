@@ -37,7 +37,6 @@ public class HdfsRead {
                 // 'mapred.job.tracker' as you did
                 //conf.set("mapred.job.tracker", "hostname:port");
 
-
                 //String localSrc = args[0];
                 String dst = args[0];
                 //String uri = args[2];
