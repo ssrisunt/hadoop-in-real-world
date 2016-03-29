@@ -1,13 +1,13 @@
 package com.srisunt;
 
-import java.io.IOException;
-
 import org.apache.hadoop.io.FloatWritable;
 import org.apache.hadoop.io.LongWritable;
 import org.apache.hadoop.io.Text;
 import org.apache.hadoop.mapreduce.Mapper;
 
-public class MaxClosePriceMapper extends
+import java.io.IOException;
+
+public class MaxClosePriceCounterMapper extends
         Mapper<LongWritable, Text, Text, FloatWritable> {
 
     @Override
